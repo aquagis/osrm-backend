@@ -10,6 +10,10 @@
       - ADDED #4775: Exposes more information to the turn function, now being able to set turn weights with highway and access information of the turn as well as other roads at the intersection [#4775](https://github.com/Project-OSRM/osrm-backend/issues/4775)
       - FIXED #4763: Add support for non-numerical units in car profile for maxheight [#4763](https://github.com/Project-OSRM/osrm-backend/issues/4763)
       - ADDED #4872: Handling of `barrier=height_restrictor` nodes [#4872](https://github.com/Project-OSRM/osrm-backend/pull/4872)
+    - Tools:
+      - `osrm-routed` accepts a new property `--memory_file` to store memory in a file on disk.
+    - NodeJS:
+      - `OSRM` object accepts a new option `memory_file` that stores the memory in a file on disk.
 
 # 5.15.1
   - Changes from 5.15.0:
