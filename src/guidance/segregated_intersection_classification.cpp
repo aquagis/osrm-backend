@@ -160,7 +160,6 @@ std::unordered_set<EdgeID> findSegregatedNodes(const extractor::NodeBasedGraphFa
                 }
                 // If we are here the edge is a candidate oneway inbound
                 oneway_inbound = true;
-                break;
             }
         }
 
@@ -203,7 +202,6 @@ std::unordered_set<EdgeID> findSegregatedNodes(const extractor::NodeBasedGraphFa
 
                 // If we are here the edge is a candidate oneway outbound
                 oneway_outbound = true;
-                break;
             }
         }
         // Must have outbound oneway at end node (exclude edges that are nearly
